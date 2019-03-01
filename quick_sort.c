@@ -8,7 +8,7 @@ int main()
     printf("enter the elements in array:");
     for(i=0;i<n;i++)
         scanf("%d",&a[i]);
-    quick_sort(a , 0, 7);
+    quick_sort(a , 0, n-1);
     for(i=0;i<n;i++)
         printf("%d  ",a[i]);
     return 0;
